@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/v1/create-customer")
-public class CustomerRequstController {
+@RequestMapping("/v1/customer-request")
+public class CustomerRequestController {
 
 	@Autowired
 	private CustomerRequestService customerRequestService;
